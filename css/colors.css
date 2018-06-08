@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Sunflower:300');
+
+body{
+	background-color: #1e272c;
+	letter-spacing: 3px;
+}
+
+h1{
+    font-family: 'Sunflower', san-serif;
+    font-weight: bold;
+    color: #ff7f7f;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Montserrat', san-serif;
+    color: #DCDCDC;
+}
+
+.title{
+    margin-top: 15%;
+}
+
+footer{
+	margin-top: 18%;
+	font-family: 'Montserrat', san-serif;
+	color: #ff9999;
+}
+
+.header{
+	font-family: 'Sunflower',san-serif;
+	color: #DCDCDC;
+}
+
+#next{
+	letter-spacing: 2px;
+	font-family: 'Sunflower',san-serif;
+	font-weight: bold;
+	background-color: transparent;
+	border-color: #ff8f7f;
+	border-style: solid;
+	color: #DCDCDC;
+	cursor: pointer;
+}
+
+#next:hover{
+	background-color: #ff7f7f;
+}
+
+#next:after{
+	letter-spacing: 2px;
+	font-family: 'Sunflower',san-serif;
+	font-weight: bold;
+	background-color: transparent;
+	border-color: #ff8f7f;
+	border-style: solid;
+	color: #DCDCDC;
+}
+
+#next:focus{
+	outline: none;
+}
